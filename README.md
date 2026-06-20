@@ -56,25 +56,31 @@ frontend/
 
 ## ▶️ Installation
 
-Install dependencies:
+1. Navigate to the backend folder
+
+```bash
+cd backend
+```
+
+2. Install dependencies
 
 ```bash
 npm install
 ```
 
-Create a `.env` file inside the backend folder:
+3. Create a `.env` file inside the backend folder
 
 ```env
 MONGO_URI=your_mongodb_connection_string
 ```
 
-Start the server:
+4. Start the server
 
 ```bash
 node server.js
 ```
 
-Open `register.html` using Live Server.
+5. Open `frontend/register.html` using Live Server.
 
 ---
 

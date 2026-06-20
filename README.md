@@ -78,8 +78,6 @@ Open `register.html` using Live Server.
 
 ---
 
----
-
 ## 📸 Screenshots
 
 ### Registration Page

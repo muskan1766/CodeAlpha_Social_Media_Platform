@@ -1,76 +1,111 @@
-# Social Media Platform
+# 📱 Social Media Platform
 
 A full-stack social media web application that allows users to create accounts, share posts, interact with content, and connect with other users.
 
-## Features
+---
 
-* User Registration
-* User Login
-* User Profile Management
-* Follow System
-* Create Posts
-* Like Posts
-* Comment on Posts
-* Persistent Data Storage with MongoDB
+## 🚀 Features
 
-## Tech Stack
+- User Registration
+- User Login
+- User Profile Management
+- Follow System
+- Create Posts
+- Like Posts
+- Comment on Posts
+- Persistent Data Storage with MongoDB
+
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
-
-* HTML
-* CSS
-* JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ### Backend
-
-* Node.js
-* Express.js
+- Node.js
+- Express.js
 
 ### Database
+- MongoDB Atlas
+- Mongoose
 
-* MongoDB Atlas
-* Mongoose
+---
 
-## Project Structure
+## 📂 Project Structure
 
+```
 backend/
-
-* models/
-* server.js
+│
+├── models/
+└── server.js
 
 frontend/
+│
+├── css/
+├── js/
+├── register.html
+├── login.html
+├── profile.html
+└── index.html
+```
 
-* css/
-* js/
-* register.html
-* login.html
-* profile.html
-* index.html
+---
 
-## Installation
+## ▶️ Installation
 
-1. Install dependencies
+Install dependencies:
 
+```bash
 npm install
+```
 
-2. Create a .env file in the backend folder and add:
+Create a `.env` file inside the backend folder:
 
+```env
 MONGO_URI=your_mongodb_connection_string
+```
 
-3. Start the server
+Start the server:
 
+```bash
 node server.js
+```
 
-4. Open register.html using Live Server.
+Open `register.html` using Live Server.
 
-## Future Enhancements
+---
 
-* Password Encryption
-* JWT Authentication
-* User Search
-* Image Uploads
-* Real-Time Notifications
+---
 
-## Author
+## 📸 Screenshots
 
-Muskan Malik
+### Registration Page
+
+![Register](screenshots/register.png)
+
+### Profile Page
+
+![Profile](screenshots/profile.png)
+
+### Social Feed
+
+![Feed](screenshots/feed.png)
+
+---
+
+## 🔮 Future Enhancements
+
+- Password Encryption
+- JWT Authentication
+- User Search
+- Image Uploads
+- Real-Time Notifications
+
+---
+
+## 👩‍💻 Author
+
+**Muskan**

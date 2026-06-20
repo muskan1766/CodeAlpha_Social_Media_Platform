@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Feed</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Social Feed</h1>
+
+    <div class="profileCard">
+        <h3 id="welcomeUser"></h3>
+        <p>Share your thoughts with everyone!</p>
+    </div>
+
+    <form id="postForm">
+
+        <textarea
+            id="postContent"
+            placeholder="What's on your mind?"
+            rows="5"
+            cols="40">
+        </textarea>
+
+        <br><br>
+
+        <button type="submit" class="mainBtn">
+            Create Post
+        </button>
+
+    </form>
+
+    <hr>
+
+    <div id="postsContainer">
+
+    </div>
+
+    <footer>
+        <p>
+            Social Media Platform
+            | Developed by Muskan Malik
+        </p>
+    </footer>
+
+</div>
+
+<script src="js/feed.js"></script>
+
+</body>
+</html>
